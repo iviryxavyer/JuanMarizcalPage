@@ -1,0 +1,198 @@
+﻿
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+
+    font-family: 'Roboto-Black';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+}
+
+body {
+    //background-color: white;
+}
+
+//Reglas generales
+.navbar-personal{
+background-color:#FFFFFF !important;
+border-color:#ffffff !important;
+}
+.navbar-marca{
+    color:#424a71 !important;
+    font-size:x-large;
+}
+.datosPersonalesSection {
+    background-image: url('Imagenes/foondoInicio.jpg');
+    background-size: cover;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    
+}
+.skillsSection {
+    background-image: url('Imagenes/foondoInicio.jpg');
+    background-size: cover;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   color:white;
+   font-weight:600;
+   padding-bottom:5%;
+}
+
+.ability{
+  font-size:x-large;
+   text-align:center;
+    margin-top:5%;
+    min-height:50px;
+    background-color:white;
+    opacity:.5;
+    vertical-align:middle;
+    line-height:90px;
+
+}
+.alpha60 {
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* For IE 5.5 - 7*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+.c4bg {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.skills > h3 {
+    letter-spacing: 0.2em;
+    background-color: #182153;
+    color: white;
+    text-align: center;
+    min-height: 10%;
+    vertical-align: middle;
+    line-height: 90px;
+    font-weight: 500;
+}
+.navbar-opciones{
+
+    float:right;
+
+}
+.navbar-inverse .navbar-nav > li > a{
+
+    font-family:Roboto-Regular;
+
+}
+.fondoInterno {
+    background-color: #FFFFFF !important;
+}
+.miFoto {
+    background-image: url('Imagenes/photomine.jpg');
+    background-size: cover;
+}
+.socialNetworks {
+    background-color: #182153;
+    color: white;
+    text-align: center;
+  padding-top:2.5%;
+  
+}
+
+.iconosSociales {
+    color:white;
+    margin-left:10%;
+
+}
+.iconosSocialesNegro > a{
+    color: black;
+    margin-left: 10%;
+}
+.helloSection {
+    color: #424a71 !important;
+    text-align: center;
+    background-color:#f1f1f1;
+   
+}
+.style-irus1av6 svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    fill: #002E5D;
+    fill-opacity: 1;
+    stroke: rgba(237, 21, 102, 1);
+    stroke-width: 0px;
+}
+.experienceSection {
+    color: #424a71 !important;
+    text-align: center;
+}
+.anosExperiencia {
+    color: #424a71 !important;
+    text-align:center;
+}
+
+//primer regleta iphone 5
+@media screen and (min-width: 20em ) and (max-width: 23.4734em) {
+    .datosPersonalesSection {
+        height: 43em;
+        padding-top: 15%;
+    }
+
+    .miFoto {
+        height: 15em;
+        display: block;
+        margin: auto;
+    }
+
+    .fondoInterno {
+        height: 40.1em;
+        width: 90%;
+        display: block;
+        margin: auto;
+        color: #424a71 !important;
+    }
+
+    .textoPieFoto {
+        text-align: left;
+        margin-left: 1em;
+
+    }
+
+    .subtitulosNegrita {
+        font-family: Roboto-Black;
+    }
+
+    .socialNetworks {
+        height: 3em;
+    }
+}
+    //segunda regleta iphone 6
+    @media screen and (min-width: 23.4375em ) and (max-width: 63em) {
+    }
+    //tercera regleta iPad
+    @media screen and (min-width: 64emem ) and (max-width: 89em) {
+    }
+    //cuarta regleta Laptop
+    @media screen and (min-width: 90em ) and (max-width: 104em) {
+    }
+    //quinta regleta Desktop
+    @media screen and (min-width: 105em ) and (max-width: 119em) {
+    }
+    //sexta regleta Desktop full HD
+    @media screen and (min-width: 120em ) and (max-width: 159em) {
+    }
+    //septima regleta 2K
+    @media screen and (min-width: 160em ) {
+    }
